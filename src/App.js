@@ -1,11 +1,14 @@
 import "./App.css";
-import MyNavbar from "./components/Navbar/Navbar.Component";
+import MyNavbar from "./components/Navbar/MyNavbar.component";
+import MyCarousel from "./components/Carousel/MyCarousel.component";
+import TextCarousel from "./components/TextCarousel/TextCarousel.component";
 
 const App = () => {
   return (
     <div>
       <MyNavbar />
-      My Portfolio
+      <MyCarousel />
+      <TextCarousel />
     </div>
   );
 };
