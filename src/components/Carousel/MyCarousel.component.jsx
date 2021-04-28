@@ -6,6 +6,10 @@ import slide2 from '../../assets/img/carousel/slide2.webp'
 import slide3 from '../../assets/img/carousel/slide3.webp'
 import ScrollDown from '../ScrollDown/ScrollDown.components'
 
+// import slide1 from '../../assets/img/carousel/slide1.jpg'
+// import slide2 from '../../assets/img/carousel/slide2.jpg'
+// import slide3 from '../../assets/img/carousel/slide3.jpg'
+
 import './mycarousel.style.css'
 
 
