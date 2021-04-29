@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-// import Logo1 from '../../assets/icons/logo.png'
 import Logo2 from "../../assets/icons/dcpro_logo.png";
 import "./mynavbar.style.css";
 
@@ -25,6 +24,7 @@ const MyNavbar = () => {
             <Nav.Link href="#skills">Skills</Nav.Link>
             <Nav.Link href="#experience">Experience</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

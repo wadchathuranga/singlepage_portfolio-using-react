@@ -8,12 +8,13 @@ import { Parallax } from "react-parallax";
 import MyNavbar from "./components/Navbar/MyNavbar.component";
 import MyCarousel from "./components/Carousel/MyCarousel.component";
 import TextCarousel from "./components/TextCarousel/TextCarousel.component";
-import TimeLine from "./components/ProjectTimeline/ProjectTimeline.component";
 
 // Pages
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
 import Experience from "./pages/experience/experience.component";
+import TimeLine from "./pages/ProjectTimeline/ProjectTimeline.component";
+import Contact from "./pages/contact/contact-form.component";
 
 // CSS
 import "./App.css";
@@ -64,7 +65,7 @@ const App = () => {
       <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />
-          {/* <ContactForm /> */}
+          <Contact />
         </Fade>
       </Container>
 
