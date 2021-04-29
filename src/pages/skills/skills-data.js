@@ -178,8 +178,14 @@ export const skills = {
       skillName: "PostgreSQL",
     },
     {
+      link: "https://www.postgresql.org/",
+      imgAltText: "Firebase",
+      imgSrc: {},
+      skillName: "Firebase",
+    },
+    {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
+      imgAltText: "MYSQL",
       imgSrc: L_MSSQL,
       skillName: "MS-SQL",
     },
@@ -190,13 +196,19 @@ export const skills = {
       skillName: "MongoDB",
     },
   ],
-  
+
   versionControl: [
     {
       link: "https://git-scm.com/",
       imgAltText: "GIT",
       imgSrc: L_GIT,
       skillName: "GIT",
+    },
+    {
+      link: "https://pages.github.com/",
+      imgAltText: "GitHub Pages",
+      imgSrc: L_GITHUB_PAGES,
+      skillName: "GitHub Pages",
     },
   ],
 };

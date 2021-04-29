@@ -8,6 +8,7 @@ import { Parallax } from "react-parallax";
 import MyNavbar from "./components/Navbar/MyNavbar.component";
 import MyCarousel from "./components/Carousel/MyCarousel.component";
 import TextCarousel from "./components/TextCarousel/TextCarousel.component";
+import Footer from "./components/Footer/Footer.component";
 
 // Pages
 import About from "./pages/about/about.component";
@@ -70,7 +71,7 @@ const App = () => {
       </Container>
 
       <hr />
-      {/* <FooterPanel /> */}
+      <Footer />
     </div>
   );
 };
