@@ -9,6 +9,7 @@ import TextCarousel from "./components/TextCarousel/TextCarousel.component";
 
 // Pages
 import About from "./pages/about/about.component";
+import Skills from "./pages/skills/skills.component";
 
 import { Parallax } from "react-parallax";
 // CSS
@@ -30,7 +31,7 @@ const App = () => {
         >
           <div>
             <Container className="container-box rounded">
-              <Fade duration={500}>
+              <Fade left big duration={500}>
                 <About />
               </Fade>
             </Container>
@@ -39,8 +40,8 @@ const App = () => {
       </div>
       <Container className="container-box rounded">
         {/* <Slide bottom duration={500}> */}
-        <hr />
-        {/* <Skills /> */}
+          <hr />
+          <Skills />
         {/* </Slide> */}
       </Container>
       <div>
