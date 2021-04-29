@@ -2,18 +2,19 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Fade";
 import Container from "react-bootstrap/Container";
+import { Parallax } from "react-parallax";
 
 // Components
 import MyNavbar from "./components/Navbar/MyNavbar.component";
 import MyCarousel from "./components/Carousel/MyCarousel.component";
 import TextCarousel from "./components/TextCarousel/TextCarousel.component";
+import TimeLine from "./components/ProjectTimeline/ProjectTimeline.component";
 
 // Pages
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
 import Experience from "./pages/experience/experience.component";
 
-import { Parallax } from "react-parallax";
 // CSS
 import "./App.css";
 
@@ -55,10 +56,10 @@ const App = () => {
         </Container>
       </div>
       <Container className="container-box rounded">
-        {/* <Slide bottom duration={500}> */}
-        <hr />
-        {/* <TimeLine /> */}
-        {/* </Slide> */}
+        <Slide bottom duration={500}>
+          <hr />
+          <TimeLine />
+        </Slide>
       </Container>
       <Container className="container-box rounded">
         <Fade duration={500}>

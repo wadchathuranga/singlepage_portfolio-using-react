@@ -1,14 +1,19 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-import Nav from 'react-bootstrap/Nav'
+import Nav from "react-bootstrap/Nav";
 // import Logo1 from '../../assets/icons/logo.png'
-import Logo2 from '../../assets/icons/dcpro_logo.png'
-import './mynavbar.style.css'
+import Logo2 from "../../assets/icons/dcpro_logo.png";
+import "./mynavbar.style.css";
 
 const MyNavbar = () => {
   return (
     <>
-      <Navbar fixed="top" variant="dark" expand="md" className="animate-navbar nav-theme justify-content-between">
+      <Navbar
+        fixed="top"
+        variant="dark"
+        expand="md"
+        className="animate-navbar nav-theme justify-content-between"
+      >
         <Navbar.Brand href="#home">
           <img className="logo" src={Logo2} alt="My Portfolio Logo" />
         </Navbar.Brand>
