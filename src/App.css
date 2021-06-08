@@ -1,3 +1,15 @@
+/* Custom scrollbar css */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #016999;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+  background-color: #a4acc4;
+}
+
 hr {
   border: 0;
   height: 1px;
