@@ -46,7 +46,7 @@ const TextCarousel = () => {
                     <div className="sub">
                         <Typewriter
                             options={{
-                                strings: ['Web Developer', 'Mobile Apps Developer', 'Full Stack Developer'],
+                                strings: ['Full Stack Developer', 'Mobile Apps Developer'],
                                 autoStart: true,
                                 loop: true,
                             }}

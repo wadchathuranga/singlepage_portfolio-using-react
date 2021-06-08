@@ -174,7 +174,7 @@ export const skills = {
     {
       link: "https://www.postgresql.org/",
       imgAltText: "Firebase",
-      imgSrc: {},
+      imgSrc: L_MONGODB,
       skillName: "Firebase",
     },
     {
