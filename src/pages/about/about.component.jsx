@@ -29,15 +29,22 @@ const About = () => {
 
                             {/* description */}
                             <Row className=" align-items-start p-2 my-details rounded">
-                                Hi there! I am <strong>&nbsp;Dilshan Chathuranga</strong>
-                                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
+                                I am <strong>&nbsp;Dilshan Chathuranga</strong>
                                 <br />
-                                In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
                                 <br />
-                                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
-                                <br />
-                                Along with that, I also help people as a COACH on their journey of becoming a professional programmer.
-                                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                                <p>
+                                    I'm passionate programmer and a developer, in Sri Lanka.<br/>
+                                    I am a Full Stack Web Developer with Laravel, Django, Reactjs, Nodejs, MongoDB and Mysql as my tech stack.
+                                </p>
+                                <p>
+                                    In 2022, I will successfully complete my Computer Sciences Degree.<br />
+                                    Working with the clients, my goal is always driven towards providing amazing experience 
+                                    with the best level of quality and service to them.
+                                </p>
+                                <p>
+                                    I love learning about new technologies and use them to build better and scalable products.
+                                    Along with that, I also help people as a good human on their journey of becoming a professional programmer.<br />
+                                </p>
                     
                                 {/* buttons */}
                                 <Col className="d-flex justify-content-center flex-wrap">

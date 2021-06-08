@@ -115,10 +115,10 @@ export const skills = {
       skillName: "Django",
     },
     {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
+      link: "https://laravel.com/",
+      imgAltText: "Laravel",
       imgSrc: L_FLASK,
-      skillName: "Flask",
+      skillName: "Laravel",
     },
   ],
 
@@ -134,12 +134,6 @@ export const skills = {
       imgAltText: "Digital Ocean",
       imgSrc: L_DIGITAL_OCEAN,
       skillName: "Digital Ocean",
-    },
-    {
-      link: "https://pages.github.com/",
-      imgAltText: "GitHub Pages",
-      imgSrc: L_GITHUB_PAGES,
-      skillName: "GitHub Pages",
     },
   ],
 

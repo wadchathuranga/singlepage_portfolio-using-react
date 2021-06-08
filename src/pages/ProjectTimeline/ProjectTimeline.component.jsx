@@ -39,7 +39,7 @@ const ProjectTimeline = () => {
         <Events>
           {/* Project: Todo List With MUI */}
           <ImageEvent
-            date="01/10/2020" /* date here */
+            date="On going" /* date here */
             text="React ToDo App" /* project type/name */
             src={L_ReactToDoList} /* project image */
             alt="React ToDo App"
@@ -127,7 +127,7 @@ const ProjectTimeline = () => {
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/wadchathuranga"
+                  href="https://dilshan-chathuranga.herokuapp.com/"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -140,7 +140,7 @@ const ProjectTimeline = () => {
           </ImageEvent>
           {/* Project: MERN Tip Calculator */}
           <ImageEvent
-            date="16/09/2020"
+            date="On going"
             className="text-center"
             text="MERN Tip Calculator"
             src={L_MernTipCalc}
@@ -253,7 +253,7 @@ const ProjectTimeline = () => {
 
           {/* Project: Get GitHub Info */}
           <ImageEvent
-            date="19/07/2020"
+            date="On going"
             className="text-center"
             text="Get GitHub Info"
             src={L_GetGitHubInfo}
@@ -360,7 +360,7 @@ const ProjectTimeline = () => {
 
           {/* Project: Smart Brain */}
           <ImageEvent
-            date="21/01/2020"
+            date="On going"
             className="text-center"
             text="Smart Brain Face Detect app"
             src={L_SmartBrain}
@@ -483,7 +483,7 @@ const ProjectTimeline = () => {
           {/* Project: RoboFriends */}
 
           <ImageEvent
-            date="14/01/2020"
+            date="On going"
             className="text-center"
             text="RoboFriends"
             src={L_RoboFriends}
@@ -596,7 +596,7 @@ const ProjectTimeline = () => {
           {/* Project: Product_Hunt_Clone */}
 
           <ImageEvent
-            date="15/12/2019"
+            date="On going"
             className="text-center"
             text="Product Hunt Clone"
             src={L_ProductHuntClone}
@@ -705,7 +705,7 @@ const ProjectTimeline = () => {
 
           {/* Project: Portfolio using Django */}
           <ImageEvent
-            date="07/12/2019"
+            date="On going"
             className="text-center"
             text="Portfolio using Django"
             src={L_PortfolioUsingDjango}
